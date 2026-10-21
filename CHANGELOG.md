@@ -10,4 +10,4 @@ Format nach [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 - Design-Tokens in Blautönen, Portrait-Platzhalter
 - Dokumentation: Anforderungen, ADRs, Architektur, Tonalität, Datenschutzkonzept
 - Deploy-Manifest, Prüfskript und GitHub-Actions-Workflow
-- Bereich „Rückblick“ mit Links zu /yogaundgong/ und /kundalinieifel/, Kontaktadresse, Xing-Verweis, Anschrift im Impressum
+- Bereich „Rückblick“ mit Links zu /yogaundgong/ und /kundalinieifel/, Kontaktadresse, Xing- und LinkedIn-Verweis, Anschrift im Impressum
