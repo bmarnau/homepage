@@ -20,6 +20,12 @@ projekte:
     art: ehrenamtlich, Online-Treffen zu Yoga, Spiritualität und KI
     url: https://t.me/kundaliniyogakiakademie
     publish: true
+yoga:
+  qualifikationen: [Kundalini-Yoga-Lehrer, Gongmeditation, Ahnenyoga, Sat Nam Rasayan, BreathWalk]
+  publish: true
+leitspruch:
+  text: "Die eigene Vision achtsam leben."
+  publish: true
 rueckblick:
   - id: PROJ-001
     name: Yoga und Gong
