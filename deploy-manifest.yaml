@@ -9,6 +9,8 @@ upload:
   - css/
   - fonts/
   - bilder/
+  # yogaundgong/ ist die bereinigte Rückblickseite und ersetzt die vorhandene Version auf dem Server
+  - yogaundgong/
 nicht_hochladen:
   - docs/
   - data/
@@ -21,9 +23,8 @@ nicht_hochladen:
   - NOTICE
   - LICENSE
   - deploy-manifest.yaml
-geschuetzte_serverpfade:
+geschuetzte_serverpfade:   # nie überschreiben oder löschen
   - /relingit/
-  - /yogaundgong/
   - /kundalinieifel/
 nachkontrolle:
   erwartet_http_status_200:

@@ -33,6 +33,7 @@ rueckblick:
     rolle_bernd: Mitorganisator, Gestaltung der Seite
     url: https://berndmarnau.de/yogaundgong/
     publish: true
+    quelle: yogaundgong/   # bereinigte Fassung im Repo; Organisatorinnen bewusst nicht genannt
   - id: PROJ-002
     name: Eifel Kundalini Yoga Festival
     status: vorbei
