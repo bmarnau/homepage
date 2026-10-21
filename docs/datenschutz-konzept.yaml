@@ -1,0 +1,15 @@
+# Datenschutzkonzept (Entwurf, keine Rechtsberatung)
+grundsaetze:
+  - Keine Cookies, kein Local/Session Storage
+  - Kein JavaScript, keine Tracker, keine Analyse
+  - Keine Drittanbieter-Ressourcen; Schriften lokal
+  - Nur einfache ausgehende Links; Datenfluss erst nach Klick
+  - Kontakt per E-Mail, kein Formular
+verarbeitungen:
+  - {name: Server-Logfiles, verantwortlich: Hoster, status: offen}
+  - {name: E-Mail-Kontakt, verantwortlich: Bernd Marnau, status: entwurf}
+offene_punkte:
+  - Anschrift und Impressumsart (privat oder geschäftsmäßig)
+  - Hoster, Logfile-Konfiguration, Auftragsverarbeitungsvertrag
+  - Zuständige Aufsichtsbehörde prüfen
+  - Rechtliche Prüfung beider Texte

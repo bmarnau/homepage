@@ -1,0 +1,21 @@
+/* Design-Tokens: Blau-Palette (ADR-005).
+   Kontrast-Paare werden in tests/check.mjs geprüft (REQ-025). */
+:root {
+  --weiss: #ffffff;
+  --blau-50: #eef4fb;
+  --blau-100: #dce9f7;
+  --blau-200: #bcd4ee;
+  --blau-300: #8fb5e0;
+  --blau-500: #3f7cc2;
+  --blau-700: #1f4f8c;
+  --blau-800: #274a75;
+  --blau-900: #0f2a4a;
+
+  --schrift-text: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --schrift-titel: "Fraunces", Georgia, "Times New Roman", serif;
+
+  --radius-karte: 1.5rem;
+  --radius-bild: 1.75rem;
+  --inhalt-breit: 1080px;
+  --inhalt-schmal: 760px;
+}

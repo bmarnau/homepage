@@ -1,0 +1,15 @@
+Lizenz- und Rechtehinweise
+==========================
+
+Quellcode (HTML, CSS, Prüfskripte, Konfiguration)
+  MIT-Lizenz, siehe LICENSE. Copyright (c) 2026 Bernd Marnau.
+
+Texte, Bilder und sonstige Inhalte der Seite
+  Von der MIT-Lizenz ausgenommen. Alle Rechte vorbehalten.
+  Eine Wiederverwendung ist nur mit schriftlicher Zustimmung erlaubt.
+
+Schriften (Verzeichnis fonts/)
+  Fraunces und Nunito Sans, jeweils unter der SIL Open Font License 1.1.
+  Lizenztexte: fonts/LICENSE-Fraunces-OFL.txt, fonts/LICENSE-NunitoSans-OFL.txt.
+  Bezogen aus den npm-Paketen @fontsource/fraunces und @fontsource/nunito-sans
+  (Version 5.3.0).

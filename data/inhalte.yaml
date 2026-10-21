@@ -1,0 +1,27 @@
+# Nur freigegebene Inhalte (publish: true). Alles andere gehört ins private Repo.
+version: 1
+person:
+  name: Bernd Marnau
+  ort: Lanzerath, Eifel
+  publish: true
+projekte:
+  - id: PROJ-005
+    name: Relingit
+    art: fiktive Geschichten, mit KI-Kennzeichnung
+    url: https://berndmarnau.de/relingit/
+    publish: true
+  - id: PROJ-004
+    name: Thürne (Dorfverein)
+    art: ehrenamtlich
+    url: https://thuerne.de
+    publish: true
+  - id: PROJ-003
+    name: KI Akademie
+    art: ehrenamtlich, Online-Treffen zu Yoga, Spiritualität und KI
+    url: https://t.me/kundaliniyogakiakademie
+    publish: true
+verweise:
+  xing: null
+  linkedin: null
+kontakt:
+  email: null

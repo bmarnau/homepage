@@ -1,0 +1,12 @@
+{
+  "name": "homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Persönliche Landingpage berndmarnau.de – reines HTML5/CSS, ohne JavaScript",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/check.mjs",
+    "release-check": "node tests/check.mjs --release"
+  }
+}

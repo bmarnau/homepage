@@ -1,0 +1,17 @@
+# Anforderungen (SMART, Modalverben). Status: entwurf | umgesetzt | offen
+version: 1
+anforderungen:
+  - {id: REQ-001, text: "Die Seite muss ohne JavaScript auskommen.", pruefung: "tests/check.mjs: kein <script>, keine Inline-Handler", status: umgesetzt}
+  - {id: REQ-002, text: "Die HTML-Seiten sollten gegen den W3C-Validator fehlerfrei sein.", pruefung: "CI-Schritt (Folgearbeit)", status: offen}
+  - {id: REQ-010, text: "Nach jedem Deployment muss geprüft werden, dass /relingit/, /yogaundgong/ und /kundalinieifel/ HTTP 200 liefern.", pruefung: "manuelle Checkliste in deploy-manifest.yaml", status: offen}
+  - {id: REQ-020, text: "Die Seite muss auf Bildschirmbreiten von 320 px bis 1920 px ohne horizontales Scrollen nutzbar sein.", pruefung: "manuelle Sichtprüfung je Release", status: entwurf}
+  - {id: REQ-025, text: "Text-/Hintergrund-Paare müssen mindestens WCAG AA (4,5:1) erreichen.", pruefung: "tests/check.mjs Kontrastprüfung", status: umgesetzt}
+  - {id: REQ-026, text: "Animationen müssen prefers-reduced-motion respektieren.", pruefung: "CSS-Review", status: umgesetzt}
+  - {id: REQ-030, text: "Die Seite muss ohne Cookies und ohne Browser-Speicher funktionieren.", pruefung: "tests/check.mjs, Sichtprüfung der Browser-Entwicklerwerkzeuge", status: umgesetzt}
+  - {id: REQ-034, text: "Die Seite darf keine Ressourcen von Drittservern laden; Schriften müssen lokal ausgeliefert werden.", pruefung: "tests/check.mjs: keine externen src/href/url()", status: umgesetzt}
+  - {id: REQ-035, text: "Jede Seite muss in der Fußzeile auf Impressum und Datenschutz verlinken.", pruefung: "tests/check.mjs", status: umgesetzt}
+  - {id: REQ-036, text: "Beim Deployment dürfen nur Pfade aus deploy-manifest.yaml hochgeladen werden; fremde Serververzeichnisse dürfen weder überschrieben noch gelöscht werden.", pruefung: "Manifest + Review", status: umgesetzt}
+  - {id: REQ-037, text: "Das öffentliche Repository darf nur freigegebene Inhalte enthalten (kein Partner, keine Namen Dritter, keine privaten Daten, keine Zugangsdaten).", pruefung: "PR-Review, tests/check.mjs (verbotene Dateitypen)", status: umgesetzt}
+  - {id: REQ-040, text: "Impressum und Datenschutzerklärung müssen vor der Veröffentlichung vollständig und rechtlich geprüft sein.", pruefung: "npm run release-check", status: offen}
+  - {id: REQ-041, text: "Die Tonalität muss einladend sein; Wörter der Negativliste dürfen nicht vorkommen.", pruefung: "tests/check.mjs", status: umgesetzt}
+  - {id: REQ-042, text: "Das Verwaltungs-Panel des Hosters darf nirgends verlinkt werden.", pruefung: "Review", status: umgesetzt}
