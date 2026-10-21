@@ -285,6 +285,15 @@ h3 {
   align-items: flex-start;
   gap: 0.875rem;
 }
+.kachel__bild {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 1rem;
+  background: var(--blau-300);
+}
 .kachel h3 {
   margin: 0;
   font-size: 1.625rem;
