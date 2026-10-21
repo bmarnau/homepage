@@ -10,7 +10,7 @@ Persönliche Landingpage von Bernd Marnau (Lanzerath, Eifel). Leitbild: *„Ich 
 
 | Pfad | Zweck |
 |---|---|
-| `index.html`, `impressum.html`, `datenschutz.html` | Seiten (Impressum/Datenschutz sind **Entwürfe**) |
+| `index.html`, `impressum.html`, `datenschutz.html` | Seiten (Impressum und Datenschutz) |
 | `css/`, `fonts/`, `bilder/` | Gestaltung, lokale Schriften, Bilder |
 | `docs/` | Anforderungen, Entscheidungen (ADR), Architektur (ADF), Technik (TDF), Tonalität, Datenschutzkonzept |
 | `data/inhalte.yaml` | Freigegebene Inhalte (nur `publish: true`) |
@@ -21,7 +21,7 @@ Persönliche Landingpage von Bernd Marnau (Lanzerath, Eifel). Leitbild: *„Ich 
 
 ```sh
 npm test               # Struktur, externe Ressourcen, Skripte, Kontrast, Tonalität
-npm run release-check  # zusätzlich: schlägt fehl, solange Platzhalter [...] oder ENTWURF vorhanden sind
+npm run release-check  # zusätzlich: schlägt fehl, solange Platzhalter [...] oder ENTWURF-Hinweise vorhanden sind
 ```
 
 ## Veröffentlichen (manuell)
