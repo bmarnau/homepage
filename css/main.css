@@ -239,9 +239,9 @@ h3 {
   gap: 1.5rem;
 }
 .karte {
-  flex: 1 1 17rem;
+  flex: 1 1 13.5rem;
   min-width: 0;
-  padding: 2rem;
+  padding: 1.75rem;
   background: var(--weiss);
   border: 1px solid var(--blau-200);
   border-radius: var(--radius-karte);
@@ -256,7 +256,8 @@ h3 {
 }
 .karte h3 {
   margin: 0;
-  font-size: 1.625rem;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
 }
 .karte p {
   color: var(--blau-800);
