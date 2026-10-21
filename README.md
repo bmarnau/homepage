@@ -31,7 +31,7 @@ Nur Pfade aus `deploy-manifest.yaml` hochladen. Auf dem Server liegen `/relingit
 
 ## Zwei-Repo-Konzept
 
-Öffentlich: dieses Repository (nur Freigegebenes, Git-Historie ist dauerhaft). Privat: `homepage-sammlung` (Profil, Ideen, Rechte-Notizen), noch nicht angelegt.
+Öffentlich: dieses Repository (nur Freigegebenes, Git-Historie ist dauerhaft). Privat: `homepage-sammlung` (Profil, Ideen, Freigaben, Rechte-Notizen, Originalkopien).
 
 ## Lizenz
 
