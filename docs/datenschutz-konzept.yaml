@@ -6,10 +6,10 @@ grundsaetze:
   - Nur einfache ausgehende Links; Datenfluss erst nach Klick
   - Kontakt per E-Mail, kein Formular
 verarbeitungen:
-  - {name: "Server-Logfiles inkl. IP-Adresse", verantwortlich: "DomainFactory GmbH, Neuturmstraße 5, 80331 München", rechtsgrundlage: "Art. 6 Abs. 1 lit. f DSGVO", status: "Text im Entwurf; keine feste Frist genannt"}
+  - {name: "Server-Logfiles inkl. IP-Adresse", verantwortlich: "DomainFactory GmbH, Neuturmstraße 5, 80331 München", rechtsgrundlage: "Art. 6 Abs. 1 lit. f DSGVO", status: "Text im Entwurf; keine Server-Logdateien laut bestätigter Konfiguration des gemeinsamen Hosting-Pakets (wie kundalinieifel)"}
   - {name: E-Mail-Kontakt, verantwortlich: Bernd Marnau, status: entwurf}
 offene_punkte:
   - Anschrift und Impressumsart (privat oder geschäftsmäßig)
-  - "Logfile-Speicherdauer: vorsichtige Formulierung (nur solange erforderlich) gewählt; optional bei datenschutz@df.eu konkrete Dauer erfragen"
+  - "Logfiles: Aussage 'keine Server-Logdateien' gilt laut Seiteninhaber für das gemeinsame Hosting-Paket; Nachweis der Konfiguration (Screenshot Kundenmenü) für die rechtliche Prüfung bereithalten"
   - "AVV mit DomainFactory: bewusst nicht im Text erwähnt (Entscheidung Seiteninhaber: rein private Seite); bei der rechtlichen Prüfung mit klären lassen"
   - Rechtliche Prüfung beider Texte
