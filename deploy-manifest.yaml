@@ -1,0 +1,34 @@
+# Deploy-Manifest (REQ-036): NUR diese Pfade werden hochgeladen.
+# Niemals Verzeichnisse spiegeln oder löschen, die hier nicht stehen
+# (auf dem Server liegen /relingit/, /yogaundgong/, /kundalinieifel/).
+version: 1
+upload:
+  - index.html
+  - impressum.html
+  - datenschutz.html
+  - css/
+  - fonts/
+  - bilder/
+  # yogaundgong/ ist die bereinigte Rückblickseite und ersetzt die vorhandene Version auf dem Server
+  - yogaundgong/
+nicht_hochladen:
+  - docs/
+  - data/
+  - tests/
+  - .github/
+  - package.json
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - NOTICE
+  - LICENSE
+  - deploy-manifest.yaml
+geschuetzte_serverpfade:   # nie überschreiben oder löschen
+  - /relingit/
+  - /kundalinieifel/
+nachkontrolle:
+  erwartet_http_status_200:
+    - https://berndmarnau.de/relingit/
+    - https://berndmarnau.de/yogaundgong/
+    - https://berndmarnau.de/kundalinieifel/
+hinweis: "Das Verwaltungs-Panel des Hosters wird nie verlinkt."

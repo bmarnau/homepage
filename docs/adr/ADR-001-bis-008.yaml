@@ -1,0 +1,37 @@
+# Architekturentscheidungen (ADR) – kompakt
+adrs:
+  - id: ADR-001
+    titel: Reines HTML5/CSS ohne JavaScript
+    status: akzeptiert
+    begruendung: Datenschutz, Einfachheit, Wartbarkeit, geringe Angriffsfläche.
+    folge: Interaktion nur über Anker, details/summary oder :target.
+  - id: ADR-002
+    titel: Git als Single Source of Truth, Zwei-Repo-Konzept
+    status: akzeptiert
+    begruendung: Öffentliches Repo nur mit Freigegebenem; Sammlung privat.
+    risiko: Git-Historie ist dauerhaft; versehentlich Committetes bleibt auffindbar.
+  - id: ADR-003
+    titel: Lizenz Code MIT, Inhalte alle Rechte vorbehalten (NOTICE)
+    status: akzeptiert
+    begruendung: Code soll wiederverwendbar sein, Texte und Bilder nicht.
+  - id: ADR-004
+    titel: Lokale Schriften (OFL) statt Google Fonts
+    status: akzeptiert
+    begruendung: Keine Übertragung der IP-Adresse an Dritte (REQ-034).
+  - id: ADR-005
+    titel: Blaue Farbwelt über CSS-Variablen (Design-Tokens)
+    status: akzeptiert
+    begruendung: Eine Quelle für Farben; Kontrast automatisch prüfbar.
+  - id: ADR-006
+    titel: Leitbild „Hausbesuch“ als Seitenstruktur (Flur, Zimmer, Vor der Tür, Küchentisch)
+    status: akzeptiert
+    begruendung: Einladender Rundgang statt Produktseite.
+  - id: ADR-007
+    titel: Manuelles Deployment mit Manifest
+    status: akzeptiert
+    begruendung: Auf dem Server (DomainFactory) liegen weitere Projektseiten, die nicht gelöscht werden dürfen (REQ-036). Entscheidung Seiteninhaber: manueller Upload.
+    offen: Firmenangaben und Logfile-Konfiguration des Hosters für die Datenschutzerklärung.
+  - id: ADR-008
+    titel: Strukturprüfung per abhängigkeitsfreiem Node-Skript in CI
+    status: akzeptiert
+    begruendung: Keine Lieferkette, schnell, nachvollziehbar.

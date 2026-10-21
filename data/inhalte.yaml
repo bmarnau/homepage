@@ -1,0 +1,53 @@
+# Nur freigegebene Inhalte (publish: true). Alles andere gehört ins private Repo.
+version: 1
+person:
+  name: Bernd Marnau
+  ort: Lanzerath, Eifel
+  publish: true
+projekte:
+  - id: PROJ-005
+    name: Relingit
+    art: fiktive Geschichten, mit KI-Kennzeichnung
+    url: https://berndmarnau.de/relingit/
+    publish: true
+  - id: PROJ-004
+    name: Thürne (Dorfverein)
+    art: ehrenamtlich
+    url: https://thuerne.de
+    publish: true
+  - id: PROJ-003
+    name: KI Akademie
+    art: ehrenamtlich, Online-Treffen zu Yoga, Spiritualität und KI
+    url: https://t.me/kundaliniyogakiakademie
+    publish: true
+yoga:
+  qualifikationen: [Kundalini-Yoga-Lehrer, Gongmeditation, Ahnenyoga, Sat Nam Rasayan, BreathWalk]
+  publish: true
+leitspruch:
+  text: "Die eigene Vision achtsam leben."
+  publish: true
+rueckblick:
+  - id: PROJ-001
+    name: Yoga und Gong
+    status: vorbei
+    rolle_bernd: Mitorganisator, Gestaltung der Seite
+    url: https://berndmarnau.de/yogaundgong/
+    publish: true
+    quelle: yogaundgong/   # bereinigte Fassung im Repo; Organisatorinnen bewusst nicht genannt
+  - id: PROJ-002
+    name: Eifel Kundalini Yoga Festival
+    status: vorbei
+    rolle_bernd: Mitorganisator, Gestaltung der Seite
+    url: https://berndmarnau.de/kundalinieifel/
+    publish: true
+verweise:
+  xing: https://www.xing.com/profile/Bernd_Marnau
+  linkedin: https://de.linkedin.com/in/bernd-marnau-765b4297
+kontakt:
+  email: info@berndmarnau.de
+impressum:
+  anschrift: In der Heilenbach 1, 53902 Bad Münstereifel-Lanzerath
+  art: vollständiges Impressum (Entscheidung Seiteninhaber)
+hosting:
+  hoster: DomainFactory
+  deployment: manuell (siehe deploy-manifest.yaml)
