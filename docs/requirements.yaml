@@ -1,4 +1,4 @@
-# Anforderungen (SMART, Modalverben). Status: entwurf | umgesetzt | offen
+# Anforderungen (SMART, Modalverben). Status: entwurf | teilweise | umgesetzt | offen
 version: 1
 anforderungen:
   - {id: REQ-001, text: "Die Seite muss ohne JavaScript auskommen.", pruefung: "tests/check.mjs: kein <script>, keine Inline-Handler", status: umgesetzt}
@@ -12,7 +12,7 @@ anforderungen:
   - {id: REQ-035, text: "Jede Seite muss in der Fußzeile auf Impressum und Datenschutz verlinken.", pruefung: "tests/check.mjs", status: umgesetzt}
   - {id: REQ-036, text: "Beim Deployment dürfen nur Pfade aus deploy-manifest.yaml hochgeladen werden; fremde Serververzeichnisse dürfen weder überschrieben noch gelöscht werden.", pruefung: "Manifest + Review", status: umgesetzt}
   - {id: REQ-037, text: "Das öffentliche Repository darf nur freigegebene Inhalte enthalten (kein Partner, keine Namen Dritter, keine privaten Daten, keine Zugangsdaten).", pruefung: "PR-Review, tests/check.mjs (verbotene Dateitypen)", status: umgesetzt}
-  - {id: REQ-040, text: "Impressum und Datenschutzerklärung müssen vor der Veröffentlichung vollständig und rechtlich geprüft sein.", pruefung: "npm run release-check; Entwurfs-Hinweis am 2026-10-21 durch Seiteninhaber entfernt", status: umgesetzt}
+  - {id: REQ-040, text: "Impressum und Datenschutzerklärung müssen vor der Veröffentlichung vollständig und rechtlich geprüft sein.", pruefung: "npm run release-check (grün); Entwurfs-Hinweis am 2026-10-21 durch Seiteninhaber entfernt; rechtliche Prüfung nicht dokumentiert", status: teilweise}
   - {id: REQ-041, text: "Die Tonalität muss einladend sein; Wörter der Negativliste dürfen nicht vorkommen.", pruefung: "tests/check.mjs", status: umgesetzt}
   - {id: REQ-043, text: "Vergangene Veranstaltungen müssen im Bereich „Rückblick“ eindeutig als vorbei gekennzeichnet sein.", pruefung: "Review", status: umgesetzt}
   - {id: REQ-042, text: "Das Verwaltungs-Panel des Hosters darf nirgends verlinkt werden.", pruefung: "Review", status: umgesetzt}
