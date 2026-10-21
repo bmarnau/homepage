@@ -20,8 +20,27 @@ projekte:
     art: ehrenamtlich, Online-Treffen zu Yoga, Spiritualität und KI
     url: https://t.me/kundaliniyogakiakademie
     publish: true
+rueckblick:
+  - id: PROJ-001
+    name: Yoga und Gong
+    status: vorbei
+    rolle_bernd: Mitorganisator, Gestaltung der Seite
+    url: https://berndmarnau.de/yogaundgong/
+    publish: true
+  - id: PROJ-002
+    name: Kundalini Eifel
+    status: vorbei
+    rolle_bernd: Mitorganisator, Gestaltung der Seite
+    url: https://berndmarnau.de/kundalinieifel/
+    publish: true
 verweise:
-  xing: null
+  xing: https://www.xing.com/profile/Bernd_Marnau
   linkedin: null
 kontakt:
-  email: null
+  email: info@berndmarnau.de
+impressum:
+  anschrift: In der Heilenbach 1, 53902 Bad Münstereifel-Lanzerath
+  art: vollständiges Impressum (Entscheidung Seiteninhaber)
+hosting:
+  hoster: DomainFactory
+  deployment: manuell (siehe deploy-manifest.yaml)

@@ -14,4 +14,5 @@ anforderungen:
   - {id: REQ-037, text: "Das öffentliche Repository darf nur freigegebene Inhalte enthalten (kein Partner, keine Namen Dritter, keine privaten Daten, keine Zugangsdaten).", pruefung: "PR-Review, tests/check.mjs (verbotene Dateitypen)", status: umgesetzt}
   - {id: REQ-040, text: "Impressum und Datenschutzerklärung müssen vor der Veröffentlichung vollständig und rechtlich geprüft sein.", pruefung: "npm run release-check", status: offen}
   - {id: REQ-041, text: "Die Tonalität muss einladend sein; Wörter der Negativliste dürfen nicht vorkommen.", pruefung: "tests/check.mjs", status: umgesetzt}
+  - {id: REQ-043, text: "Vergangene Veranstaltungen müssen im Bereich „Rückblick“ eindeutig als vorbei gekennzeichnet sein.", pruefung: "Review", status: umgesetzt}
   - {id: REQ-042, text: "Das Verwaltungs-Panel des Hosters darf nirgends verlinkt werden.", pruefung: "Review", status: umgesetzt}

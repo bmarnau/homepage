@@ -28,9 +28,9 @@ adrs:
     begruendung: Einladender Rundgang statt Produktseite.
   - id: ADR-007
     titel: Manuelles Deployment mit Manifest
-    status: vorgeschlagen
-    begruendung: Auf dem Server liegen weitere Projektseiten, die nicht gelöscht werden dürfen (REQ-036).
-    offen: Hoster und Zugangsart (manuell oder SFTP) klären.
+    status: akzeptiert
+    begruendung: Auf dem Server (DomainFactory) liegen weitere Projektseiten, die nicht gelöscht werden dürfen (REQ-036). Entscheidung Seiteninhaber: manueller Upload.
+    offen: Firmenangaben und Logfile-Konfiguration des Hosters für die Datenschutzerklärung.
   - id: ADR-008
     titel: Strukturprüfung per abhängigkeitsfreiem Node-Skript in CI
     status: akzeptiert
