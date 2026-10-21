@@ -12,7 +12,7 @@ adrs:
     risiko: Git-Historie ist dauerhaft; versehentlich Committetes bleibt auffindbar.
   - id: ADR-003
     titel: Lizenz Code MIT, Inhalte alle Rechte vorbehalten (NOTICE)
-    status: vorgeschlagen
+    status: akzeptiert
     begruendung: Code soll wiederverwendbar sein, Texte und Bilder nicht.
   - id: ADR-004
     titel: Lokale Schriften (OFL) statt Google Fonts
