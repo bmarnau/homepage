@@ -15,4 +15,4 @@ anforderungen:
   - {id: REQ-040, text: "Impressum und Datenschutzerklärung müssen vor der Veröffentlichung vollständig und rechtlich geprüft sein.", pruefung: "npm run release-check (grün); Entwurfs-Hinweis am 2026-10-21 durch Seiteninhaber entfernt; rechtliche Prüfung nicht dokumentiert", status: teilweise}
   - {id: REQ-041, text: "Die Tonalität muss einladend sein; Wörter der Negativliste dürfen nicht vorkommen.", pruefung: "tests/check.mjs", status: umgesetzt}
   - {id: REQ-043, text: "Vergangene Veranstaltungen müssen im Bereich „Rückblick“ eindeutig als vorbei gekennzeichnet sein.", pruefung: "Review", status: umgesetzt}
-  - {id: REQ-042, text: "Das Verwaltungs-Panel des Hosters darf nirgends verlinkt werden.", pruefung: "Review", status: umgesetzt}
+  - {id: REQ-042, text: "Das Verwaltungs-Panel des Hosters sollte nur über einen einzigen Link im Fuß der Startseite (Admin, rel=nofollow) erreichbar sein; weitere Verlinkungen dürfen nicht erfolgen. Entscheidung des Eigentümers vom 2026-11-23, ersetzt das frühere Verlinkungsverbot.", pruefung: "Review", status: umgesetzt}
