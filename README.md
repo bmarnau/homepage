@@ -29,6 +29,10 @@ npm run release-check  # zusätzlich: schlägt fehl, solange Platzhalter [...] o
 
 Nur Pfade aus `deploy-manifest.yaml` hochladen. Auf dem Server liegen `/relingit/` und `/kundalinieifel/`; diese dürfen **nicht** überschrieben oder gelöscht werden. `/yogaundgong/` wird aus diesem Repository gepflegt (Ordner `yogaundgong/`) und beim Upload durch die bereinigte Fassung ersetzt. Danach die drei Pfade per Aufruf prüfen. Das Verwaltungs-Panel des Hosters wird nie verlinkt.
 
+## Zugang zur Verwaltung (Admin)
+
+Das Verwaltungs-Panel des Hosters erreichst du unter **https://berndmarnau.de/cpanel**. Die Startseite verlinkt es im Fuß als „Admin“ (REQ-042). Alternativ geht der Weg über `df.eu` und den Login ins Kundenmenü von DomainFactory. Zugangsdaten gehören nie ins Repository, auch nicht in dieses öffentliche.
+
 ## Zwei-Repo-Konzept
 
 Öffentlich: dieses Repository (nur Freigegebenes, Git-Historie ist dauerhaft). Privat: `homepage-sammlung` (Profil, Ideen, Freigaben, Rechte-Notizen, Originalkopien).
